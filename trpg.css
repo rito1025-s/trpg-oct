@@ -104,3 +104,10 @@ th {
          color:black;
      }
  }
+
+img {
+    width: 80%;
+    display: block; /* imgタグはインライン要素のため、ブロック要素にする */
+    margin: 0 auto; /* ブロックレベル要素のものを中央に配置する */
+}
+
