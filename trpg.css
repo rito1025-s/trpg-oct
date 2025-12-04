@@ -111,3 +111,9 @@ img {
     margin: 0 auto; /* ブロックレベル要素のものを中央に配置する */
 }
 
+.timeline {
+  width: 40%;
+  border: 1px solid #333;
+  padding: 10px;
+}
+
