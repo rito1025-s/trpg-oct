@@ -1,0 +1,90 @@
+.custom-list {
+/* 1. 枠線の定義: 太さ, 線種, 色 */
+    border: 3px solid #007bff; 
+    
+    /* 2. 角の丸みの定義: pxまたは%で指定 */
+    /* ここを大きくするほど丸みが強くなります */
+    border-radius: 15px; 
+    
+    /* 3. 内側の余白: 枠線と文章の間隔 */
+    padding: 20px; 
+    
+    /* (オプション) 背景色の設定 */
+    background-color: #f8f9fa;
+    
+    /* (オプション) 囲み要素の幅の調整 */
+    width: 80%;
+    margin: 20px auto; /* 中央寄せ用 */
+}
+
+.container {
+    /* 1. 幅を固定または最大値を設定する */
+    /* 中央寄せを機能させるには、幅をビューポートの100%未満に設定する必要があります */
+    width: 90%; 
+    /* または最大幅を設定（例：PC環境での見やすさのため） */
+    max-width: 1000px; 
+    
+    /* 2. 中央寄せの魔法のコード: 左右のマージンを自動調整 */
+    /* 上下のマージンは任意の値、左右のマージンは 'auto' に設定します */
+    margin-left: auto;
+    margin-right: auto;
+    
+    /* 上記2行は以下のように短縮して記述するのが一般的です */
+    /* margin: 20px auto; */
+    
+    /* (オプション) わかりやすいように枠線を設定 */
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+span {
+  color: black;
+  background-color: rgb(227, 235, 245);
+}
+
+.trpg {
+  
+    /* 太さ 3px、種類 実線 (solid)、色 青 (#007bff) の枠線を適用 */
+    border: 3px solid #000000;
+    
+    /* 枠線とコンテンツの間に余白を持たせるためpaddingもよく使用されます */
+    padding: 15px;
+}
+
+table {
+    /* 枠線を一本化する（必須の設定） */
+    border-collapse: collapse; 
+    width: 80%;
+    margin: 20px auto;
+}
+
+th, td {
+    /* 各セルに枠線を適用 */
+    border: 1px solid #666; 
+    /* セル内の余白を設定 */
+    padding: 10px; 
+}
+
+td {
+  text-align: center;
+}
+
+.no-wrap {
+    /* セル内のテキストが改行されるのを禁止する */
+    white-space: nowrap; 
+}
+
+th.description, td.description {
+    text-align: left; /* 左揃えに設定 */
+}
+
+th {
+  background-color: antiquewhite;
+}
+.png {
+  text-align: center;
+}
+
+.kobushi {
+  background-color: #eef2f7;
+}
