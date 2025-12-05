@@ -27,7 +27,7 @@
     </p>
     <section id="top-page" class="content-section">
       <h2>目次</h2>
-      <ol class="custom-list">
+      <ul class="custom-list">
         <li><a href="#section1">ざっくり解説</a></li>
         <li><a href="#section2">探索者</a></li>
         <li><a href="#section3">よく使われる用語一覧</a></li>
@@ -35,11 +35,12 @@
         <li><a href="#section5">ダイスとは？</a></li>
         <li><a href="#section6">技能値について</a></li>
         <li><a href="#section7">職業ポイント・興味ポイント</a></li>
+        <li><a href="#section8">狂気とは？</a></li>
         <li><a href="#section-last">SNS</a></li>
         <!--
         
         -->
-      </ol>
+      </ul>
     </section>
 
     <section id="section1" class="content-section">
@@ -56,9 +57,11 @@
               それぞれ違うルールの中で遊ぶ、そんなイメージである。</p>
           </div>
           <div class="inner">
-            <p>CoCというシステムで遊ぶTRPGは、クトゥルフ神話TRPGとよく呼ばれている。</p>
+            <p>CoCというシステムで遊ぶTRPGは、<span>クトゥルフ神話TRPG</span>とよく呼ばれている。</p>
             <p>最近よく耳にするのは6版と7版だと思うが、7版の方が新しく出たものであり、ルールも明瞭になっている（らしい）。 </p>
           </div>
+
+
 
           <div class="inner">
             <p>それぞれルールブック（以下ルルブ）があり、書籍版だと1kgぐらいあるし6000円ぐらいする。参考書か？</p>
@@ -69,10 +72,15 @@
           </div>
 
           <div class="inner">
-            <p>ルルブを所持していなくてもプレイは可能である。</p>
-            <p>しかし、持っていた方が自分でルールを確認することが楽なので、所持推奨。</p>
+            <p><span>ルルブを所持していなくてもプレイは可能</span>である。</p>
+            <p>しかし、持っていた方が自分でルールを確認することが楽なので、 <span>所持推奨</span>。</p>
             <br>
           </div>
+
+          <div class="trpg-6">
+            <p>このサイトでは主にCoC6版について解説する。</p>
+          </div>
+
           <a href="https://product.kadokawa.co.jp/cthulhu/app/">アプリ版ルルブ公式サイト</a> <br>
           <a href="https://product.kadokawa.co.jp/cthulhu/product-c/">書籍版ルルブの公式サイト</a>
         </div>
@@ -126,7 +134,10 @@
         </div>
 
         <div class="inner">
-          <p>『やんわりと断りたい。』なども歓迎される。</p>
+          <p>『やんわりと断りたい。』</p>
+        </div>
+        <div class="inner">
+          <p>なども歓迎される。</p>
         </div>
 
         <div class="inner">
@@ -136,7 +147,7 @@
         <p> </p>
 
         <div class="inner">
-          <p>探索者の性格や、シナリオによっては過去も好きに作ることが出来る。まずは自分が演じやすい探索者を作るのがオススメだ。</p>
+          <p>探索者の性格や、シナリオによっては過去も好きに作ることが出来る。まずは <span>自分が演じやすい探索者</span>を作るのがオススメだ。</p>
         </div>
 
         <div class="inner">
@@ -227,6 +238,10 @@
           <td class="no-wrap">継続/継続探索者</td>
           <td class="description">他のシナリオを通過した探索者を別のシナリオに連れて行くこと。またその探索者。</td>
         </tr>
+        <tr>
+          <td class="no-wrap">ハウスルール</td>
+          <td class="description">各KPが決める独自のルールのこと。確認必須事項。ない人もいる。</td>
+        </tr>
       </table>
       </p>
       <p><a href="#top-page">トップへ戻る</a></p>
@@ -301,7 +316,7 @@
       <h2>技能値について</h2>
       <div class="trpg">
         <div class="inner">
-          <p>技能値とは、探索者が行いたい動作や行動をするときに必要になるものである。
+          <p>技能値とは、 <span>探索者が行いたい動作や行動をするときに必要になるもの</span>である。
         </div>
 
         <div class="inner">
@@ -312,13 +327,15 @@
           <p>今回はこぶしを例に話を進めていく。こぶしは初期値が50である。</p>
         </div>
 
-        <ol class="kobushi">
-          <li>こぶしを振る宣言</li>
-          <li>1d100を振る</li>
-          <li>50以下であれば成功、50より大きい値が出たら失敗</li>
+        <div class="kobushi">
+          <ol>
+            <li>こぶしを振る宣言</li>
+            <li>1d100を振る</li>
+            <li>50以下であれば <span class="suc">成功</span>、50より大きい値が出たら <span class="fail">失敗</span></li>
+          </ol>
           <div class="suc">成功➡こぶしが目的のモノに当たり、ダメージが出る</div>
           <div class="fail">失敗➡こぶしが目的のモノに当たららなかった</div>
-        </ol>
+        </div>
         となる。
         <div class="inner">
           <p>すなわち、こぶしでいう50（技能値という）が成功、失敗に関わる。</p>
@@ -350,40 +367,88 @@
         </div>
 
         <div class="inner">
-          <p>職業ポイント<br>
-            興味ポイントを振り分けることで技能値を高くし、シナリオ内での探索をスムーズに進めていく。</p>
+          <p>職業ポイント・興味ポイントを振り分けることで技能値を高くし、シナリオ内での探索をスムーズに進めていく。</p>
         </div>
         <p>
         <div class="kobushi">
           <p>
-            職業ポイント<br>
-          探索者の職業に沿った技能に振り分けることが出来るポイント。 
+            <span class="job">職業ポイント</span><br>
+            探索者の職業に沿った技能に振り分けることが出来るポイント。
           </p>
-          <p>
-            興味ポイント<br>
-            探索者の性格や過去、シナリオの推奨技能に沿ってどの技能にも振り分けることが出来るポイント。
+        </div>
+        <p>
+        <div class="kobushi">
+          <span class="job">興味ポイント</span><br>
+          探索者の性格や過去、シナリオの推奨技能に沿ってどの技能にも振り分けることが出来るポイント。
           </p>
-          
+
         </div>
         </p>
       </div>
       <p><a href="#top-page">トップへ戻る</a></p>
     </section>
 
+    <section id="section8" class="content-section">
+      <h2>狂気とは？</h2>
+      <div class="trpg">
+        <div class="inner">
+          <p>探索者の精神値を表すSAN値が一定数減ると、その事象によって探索者は狂気に陥る。</p>
+        </div>
+
+        <div class="inner">
+          <p>狂気には、 <span>一時的狂気</span>、<span>不定の狂気</span>の2種類が存在する。</p>
+        </div>
+
+
+        <div class="kobushi">
+          <h3>一時的狂気</h3>
+          <div class="inner">
+            <p>探索者が一度のSAN値チェックにおいて、5以上のSAN値が減った時、 <span>アイデアロール</span>を振る。</p>
+          </div>
+          <div class="inner">
+            <p>アイデアロールに成功すると一時的狂気となり、アイデアロールに失敗した場合は一時的狂気を免れることが出来る。</p>
+          </div>
+
+          <div class="inner">
+            <p>何か怖いことがあったとき、その怖い事象を理解して更に恐怖を感じるというイメージだ。</p>
+          </div>
+          <div class="inner">
+            <p>怖い事に直面しても、その内容が理解出来なかった場合具体的な怖さを感じにくい、つまり鈍い方が怖さを感じにくい、そう思ってもらえればよい。</p>
+          </div>
+        </div>
+
+        <div class="kobushi">
+          <h3>不定の狂気</h3>
+
+          <div class="inner">
+            <p>探索者が1時間内に、 <span>現在のSAN値の5分の1以上（端数切り上げ）を失った場合</span>、不定の狂気に陥る。</p>
+          </div>
+          <div class="inner">
+            <p> 一時的狂気とは違い、不定の狂気は他のダイスロールをするまでもなく不定の狂気に陥ってしまう。</p>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
     <section id="section-last" class="content-section">
       <h2>SNS</h2>
-      <div class="kobushi">
-        <ul>
-        <li><a href="https://x.com/yozakura_rito?s=20"><i class="fa-brands fa-x-twitter"></i> X (Twitter)</a></li>
-        <li><a href="https://discordapp.com/users/615101000818229248"><i class="fa-brands fa-discord"></i> Discord</a>
-        </li>
-      </ul>
+      <div class="inner">
+        <p>
+          何かあればこちらまで。
+        </p>
       </div>
-      
+      <div class="sns">
+        <ul class="sns-list">
+          <li><a href="https://x.com/yozakura_rito?s=20"><i class="fa-brands fa-x-twitter"></i> X (Twitter)</a></li>
+          <li><a href="https://discordapp.com/users/615101000818229248"><i class="fa-brands fa-discord"></i> Discord</a>
+          </li>
+        </ul>
+      </div>
+
     </section>
     <p><a href="#top-page">トップへ戻る</a></p>
   </div>
 </body>
 
 </html>
-
